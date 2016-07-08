@@ -1,0 +1,17 @@
+/* CSS Document */
+.login-page-container{
+	height:300px;
+	width:300px;
+	border-bottom-color:#CCCCCC;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
+
+#login-p-header{
+	height:50px;
+	width:100%;
+	float:left;
+	text-align:center;
+	background:#00FF00;
+}
+

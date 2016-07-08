@@ -23,8 +23,6 @@ class API_Controller extends MX_Controller{
     
     public function __construct() {
         parent::__construct();
-        $this->load->model("api/m_access_control_list");
-        $this->load->model("api/m_action_log");
         $this->form_validation->CI =&$this;
         //sleep(2);//Simulate slow internet connection
     }
