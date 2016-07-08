@@ -3,7 +3,7 @@ body{
 font-family:Candara;
 }
 .login-page-container{
-	height:250px;
+	height:220px;
 	width:350px;
 	border-color:#CCCCCC;
 	border-style:solid;
@@ -71,6 +71,13 @@ font-family:Candara;
 	width:100px;
 	float:left;
 }
+#forget-password{
+	height:40px;
+	width:230px;
+	float:left;
+	text-align:center;
+	color:#224144;
+}
 .button{
 	background:#224144;
 	color:#FFFFFF;
@@ -78,4 +85,9 @@ font-family:Candara;
 	width:100%;
 	border-radius: 5px 5px 5px 5px;
 	border:hidden;
+	font-family:Candara;
+}
+#forget-password:hover{
+	text-decoration:underline;
+	cursor:pointer;
 }
