@@ -16,8 +16,13 @@ This document is exclusive to the website (commcuriosity) develop by the followi
 @department of communications, linguistics and literature
 */
 
-class Template extends API_Controller{
-    public function index(){
-        $this->load->view('design_1');
+class Calendar extends API_Controller{
+    public function calendarPage(){
+        $this->load->view('html/calendar');
     }
+	public function calendarMenu(){
+		    $this->load->view('html/calendar_menu');
+	}
 }
+
+?>

@@ -16,8 +16,9 @@ This document is exclusive to the website (commcuriosity) develop by the followi
 @department of communications, linguistics and literature
 */
 
-class Template extends API_Controller{
-    public function index(){
-        $this->load->view('design_1');
+class Header extends API_Controller{
+     public function headerPage(){
+        $this->load->view('html/header_page');
     }
 }
+?>

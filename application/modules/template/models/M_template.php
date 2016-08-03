@@ -13,11 +13,10 @@ This document is exclusive to the website (commcuriosity) develop by the followi
 
 @copyright 2016
 @communicaction curiosity
-@department of communications, linguistics and literature
+@department of communications, 
+linguistics and literature
 */
-
-class Template extends API_Controller{
-    public function index(){
-        $this->load->view('design_1');
-    }
+class M_Template extends API_Model{
+    
 }
+
