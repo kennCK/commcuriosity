@@ -1,10 +1,27 @@
-/* CSS Document */
+/* 
+This document is own by Kennette J. Canales.
+
+No portion of this document shall be use or copy  by anyone without the authorization of the owner.
+That act stated above is against the law of IP or Intellectual Property.
+
+This document is exclusive to the website (commcuriosity) develop by the following members of the team:
+
+1. Kennette J. Canales
+2. Joseph Carlo Ruiz 
+
+@copyright 2016
+@communicaction curiosity
+@department of communications, linguistics and literature
+*/
 body{
 font-family:Candara;
 }
+
+@media screen and (min-width:1200px){
 .login-page-container{
-	height:220px;
+	max-height:auto;
 	width:350px;
+	min-height:250px;
 	border-color:#CCCCCC;
 	border-style:solid;
 	border-width:0px 1px 1px 1px;
@@ -20,9 +37,6 @@ font-family:Candara;
 	color:#FFFFFF;
 	border-radius: 10px 10px 0px 0px;
 }
-#login-notif{
-	display:none;
-}
 #login-text-header{
 	margin-top:10px;
 }
@@ -36,8 +50,9 @@ font-family:Candara;
 	margin-top:5px;
 }
 #login-field-icon{
-	height:40px;
-	width:40px;
+	height:30px;
+	width:30px;
+	margin-top:5px;
 	float:left;
 }
 #login-textfield{
@@ -90,4 +105,23 @@ font-family:Candara;
 #forget-password:hover{
 	text-decoration:underline;
 	cursor:pointer;
+}
+.button:hover{
+	cursor:pointer;
+}
+
+#login-notif{
+	color:#FF0000;
+	font-family:Candara;
+	height:30px;
+	width:330px;
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+	text-align:center;
+}
+
+#login-error-message{
+	margin-top:5px;
+}
 }

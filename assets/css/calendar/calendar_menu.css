@@ -1,0 +1,66 @@
+/* 
+This document is own by Kennette J. Canales.
+
+No portion of this document shall be use or copy  by anyone without the authorization of the owner.
+That act stated above is against the law of IP or Intellectual Property.
+
+This document is exclusive to the website (commcuriosity) develop by the following members of the team:
+
+1. Kennette J. Canales
+2. Joseph Carlo Ruiz 
+
+@copyright 2016
+@communicaction curiosity
+@department of communications, linguistics and literature
+*/
+
+.calendar-main-menu-holder{
+	height:auto;
+	width:90%;
+	margin-top:200px;
+	margin-left:5%;
+	margin-right:5%;
+	float:left;
+}
+ul{
+	list-style:none;
+}
+li{
+	border-style:solid;
+	border-color:#FFFFFF;
+	border-width:1px;
+	height:50px;
+	color:#FFFFFF;
+	border-radius: 5px;
+	margin-left:2%;
+	width:20%;
+	float:left;
+	height:400px;
+	
+}
+ul li:hover{
+	background:#224144;
+	cursor:pointer;
+}
+p{
+	padding-top:30px;
+}
+
+#menu-icon{
+	width:100%;
+	border-radius: 5px 5px 0px 0px;
+	height:300px;
+	background:#bf168a;
+	text-align:center;
+	
+}
+#menu-title{
+	width:100%;
+	border-radius: 0px 0px 5px 5px;
+	height:90px;
+	text-align:center;
+}
+
+.calendar-icons{
+	margin-top:50px;
+}

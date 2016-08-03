@@ -1,0 +1,68 @@
+/* 
+This document is own by Kennette J. Canales.
+
+No portion of this document shall be use or copy  by anyone without the authorization of the owner.
+That act stated above is against the law of IP or Intellectual Property.
+
+This document is exclusive to the website (commcuriosity) develop by the following members of the team:
+
+1. Kennette J. Canales
+2. Joseph Carlo Ruiz 
+
+@copyright 2016
+@communicaction curiosity
+@department of communications, linguistics and literature
+*/
+body{
+font-family:Candara;
+background:#224144;
+margin: 0px;
+}
+.calendar-page-container{
+	max-height:auto;
+	width:100%;
+	min-height:250px;
+	border-color:#CCCCCC;
+	float:left;
+}
+
+.calendar-p-header{
+	height:95px;
+	width:100%;
+	float:left;
+	color:#FFFFFF;
+}
+#calendar-main-menu{
+	height:100%;
+	width:100px;
+	margin-left:90%;
+	float:left;
+}
+.calendar-page-overlay{
+	height:100%;
+	width:100%;
+	position:absolute;
+	background:rgb(0,0,0);
+	background:rgba(0,0,0, 0.3);
+	display:none;
+	z-index:10;
+}
+#calendar-main-menu:hover{
+	cursor:pointer;
+	background:#bf168a;
+}
+#calendar-date-picker-holder{
+	float:left;
+	width:40%;
+	margin-left:5%;
+	height:550px;
+	border-right-color:#FFFFFF;
+	border-right-style:solid;
+	border-right-width:1px;
+}
+#calendar-content-display-holder{
+	float:left;
+	width:45%;
+	height:550px;
+
+}
